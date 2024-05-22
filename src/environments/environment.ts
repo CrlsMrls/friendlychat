@@ -21,5 +21,6 @@ export const environment = {
     storageBucket: 'ai-playground-424107.appspot.com',
     messagingSenderId: '219236925850',
     appId: '1:219236925850:web:b97c3e92c66b7ac514fa23',
+    locationId: 'europe-west3',
   },
 };
