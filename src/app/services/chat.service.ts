@@ -106,6 +106,8 @@ export class ChatService {
     textMessage: string | null,
     imageUrl: string | null
   ): Promise<void | DocumentReference<DocumentData>> => {
+    console.log('new message ' + textMessage);
+
     // ignore empty messages
     if (!textMessage && !imageUrl) {
       console.log(
